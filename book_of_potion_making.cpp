@@ -42,7 +42,7 @@ string Helper(int isbn){
 int main(){
 long long int isbn;
 cin>>isbn;
-cout<<isbn;
+
 string decide = BookOfPotionMaking(isbn);
 
  if(decide == "legal"){
